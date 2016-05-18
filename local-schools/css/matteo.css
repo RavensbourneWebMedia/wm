@@ -13,7 +13,8 @@ body
 	-webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6,
+footer a
 {
 	font-family: 'Roboto', -apple-system-font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 900;
@@ -71,7 +72,8 @@ h3
 
 /* GENERAL */
 
-img {
+img 
+{
     max-width: 100%;
 }
 
@@ -100,6 +102,11 @@ img {
 #hero 
 {
     padding: 7.59375rem 0;
+}
+
+#hero span
+{
+    opacity: 0.444;
 }
 
 /* THREE COLUMNS TEXT */
@@ -170,10 +177,30 @@ img {
     justify-content: center;
 }
 
+.overlay h3
+{
+/*
+    font-family: inherit;
+    font-weight: 300;
+*/
+    font-size: 2.25rem;
+}
+
 /* FOOTER */
 
 footer 
 {
-    padding: 3.375rem 0;
+/*    padding: 3.375rem 0;*/
     clear: both;
+}
+
+footer .container
+{
+    padding: 3.375rem 0;
+    border-bottom: 1rem solid;
+}
+
+footer a
+{
+    font-size: 2.25rem;
 }

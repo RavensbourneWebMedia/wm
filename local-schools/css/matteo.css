@@ -1,44 +1,44 @@
 /* TYPOGRAPHY */
 
-html
-{
-  font-size: 16px;  
-}
+    html
+    {
+      font-size: 16px;  
+    }
 
-body
-{
-	font-family: 'Lekton', -apple-system-font, 'Helvetica Neue', Helvetica, Arial, serif;
-	font-weight: 300;
-    font-size: 100%;
-	-webkit-font-smoothing: antialiased;
-}
+    body
+    {
+    	font-family: 'Lekton', -apple-system-font, 'Helvetica Neue', Helvetica, Arial, serif;
+    	font-weight: 300;
+        font-size: 100%;
+    	-webkit-font-smoothing: antialiased;
+    }
 
-h1, h2, h3, h4, h5, h6,
-footer a
-{
-	font-family: 'Roboto', -apple-system-font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 900;
-	font-style: inherit;
-}
+    h1, h2, h3, h4, h5, h6,
+    footer a
+    {
+    	font-family: 'Roboto', -apple-system-font, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    	font-weight: 900;
+    	font-style: inherit;
+    }
 
-h1
-{
-    font-size: 5.0625rem; 
-    margin-bottom: 3.375rem;
-    margin-top: 0;
-}
+    h1
+    {
+        font-size: 5.0625rem; 
+        margin-bottom: 3.375rem;
+        margin-top: 0;
+    }
 
-h2
-{
-    font-size: 2.25rem; 
-    margin-top: 0;
-    margin-bottom: 0;
-}
+    h2
+    {
+        font-size: 2.25rem; 
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-h3
-{
-   font-size: 1.5rem; 
-}
+    h3
+    {
+       font-size: 1.5rem; 
+    }
 
 /* COLOURS */
 
@@ -72,135 +72,131 @@ h3
 
 /* GENERAL */
 
-img 
-{
-    max-width: 100%;
-}
+    img 
+    {
+        max-width: 100%;
+    }
 
 /* BOOTSTRAP OVERRIDE */
 
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 
-{
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 
+    {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 
-.container 
-{
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
+    .container 
+    {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 
-.row 
-{
-    margin-right: -1rem;
-    margin-left: -1rem;
-}
+    .row 
+    {
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
 
 /* HERO */
 
-#hero 
-{
-    padding: 7.59375rem 0;
-}
+    #hero 
+    {
+        padding: 7.59375rem 0;
+    }
 
-#hero span
-{
-    opacity: 0.444;
-}
+    #hero span
+    {
+        opacity: 0.444;
+    }
 
 /* THREE COLUMNS TEXT */
 
-#copy .row 
-{
-    margin-top: 3.375rem;
-    margin-bottom: 5.0625rem; 
-}
+    #info .row 
+    {
+        margin-top: 3.375rem;
+        margin-bottom: 5.0625rem; 
+    }
 
-#copy h3
-{
-    border-bottom: 0.444rem solid;
-/*    margin-bottom: 1rem;*/
-    padding-bottom: 1rem;
-}
+    #info h3
+    {
+        border-bottom: 0.444rem solid;
+    /*    margin-bottom: 1rem;*/
+        padding-bottom: 1rem;
+    }
 
-#copy p
-{
-    margin-top: 2.25rem;
-    margin-bottom: 0;
-}
+    #info p
+    {
+        margin-top: 2.25rem;
+        margin-bottom: 0;
+    }
 
 /* FOUR BOXES */
 
-#nutshell ul 
-{
-    padding: 0;
-}
+    #emo ul 
+    {
+        padding: 0;
+    }
 
-#nutshell li 
-{
-    list-style: none;
-    padding: 0;
-    background-size: cover;
-    position: relative;
-}
+    #emo li 
+    {
+        list-style: none;
+        padding: 0;
+        background-size: cover;
+        position: relative;
+    }
 
-#nutshell li:after 
-{
-    opacity: 0.66666;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: "";
-    pointer-events: none;
-}
+    #emo li:after 
+    {
+        opacity: 0.66666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        pointer-events: none;
+    }
 
-#nutshell li img 
-{
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-}
+    #emo li img 
+    {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+    }
 
-.overlay 
-{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .overlay 
+    {
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.overlay h3
-{
-/*
-    font-family: inherit;
-    font-weight: 300;
-*/
-    font-size: 2.25rem;
-}
+    .overlay h3
+    {
+        font-size: 2.25rem;
+    }
 
 /* FOOTER */
 
-footer 
-{
-/*    padding: 3.375rem 0;*/
-    clear: both;
-}
+    footer 
+    {
+        /* padding: 3.375rem 0;*/
+        clear: both;
+    }
 
-footer .container
-{
-    padding: 3.375rem 0;
-    border-bottom: 1rem solid;
-}
+    footer .container
+    {
+        padding: 3.375rem 0;
+        border-bottom: 1rem solid;
+    }
 
-footer a
-{
-    font-size: 2.25rem;
-}
+    footer a
+    {
+        font-size: 2.25rem;
+    }

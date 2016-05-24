@@ -113,14 +113,18 @@
 
     #info .row 
     {
-        margin-top: 3.375rem;
         margin-bottom: 5.0625rem; 
+    }
+
+    #info .col-md-4
+    {
+        margin-top: 3.375rem;
     }
 
     #info h3
     {
         border-bottom: 0.444rem solid;
-    /*    margin-bottom: 1rem;*/
+        /*    margin-bottom: 1rem;*/
         padding-bottom: 1rem;
     }
 

@@ -192,11 +192,33 @@
 
     footer .container
     {
-        padding: 3.375rem 0;
+        padding: 3.375rem 1rem;
         border-bottom: 1rem solid;
     }
 
+    @media (min-width: 768px) {
+
+       footer .container
+        {
+            padding: 3.375rem 0;
+        } 
+    }
+
+    #rave
+    {
+        background: url('../assets/ravensbourne.png') no-repeat;
+        background-size: auto 30px; /* original height 60px */
+        background-position-x: 1rem;
+        min-height: 30px;
+        display: block;
+    }    
+
     footer a
     {
-        font-size: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    footer a.right
+    {
+        text-align: right;
     }

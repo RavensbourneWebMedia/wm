@@ -48,6 +48,18 @@
         color: #00BCE3;
     }
 
+    a, a:hover, a:active, a:visited  
+    {
+        color: #00BCE3;
+        transition: color .3s;
+    }
+
+    a:hover
+    {
+        text-decoration: none;
+        color: #444;
+    }
+
     #hero 
     {
         background-color: #00BCE3;

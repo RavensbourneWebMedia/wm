@@ -69,28 +69,82 @@
         <ul>
 
             <li class="col-sm-6 red">
-                <img src="assets/brainswarming.jpg">
+                <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/brainswarming.jpg">
+                        </div>
+                        <div class="item">    
+                            <img src="assets/demo.jpg">
+                        </div> 
+                        <div class="item">    
+                            <img src="assets/post-its.jpg">
+                        </div>  
+                        <div class="item">    
+                            <img src="assets/wireframes-presentation.jpg">
+                        </div>    
+                    </div>
+                </div>    
                 <div class="overlay">
                     <h3>Team work</h3>
                 </div>
             </li>
 
             <li class="col-sm-6 blue">
-                <img src="assets/makey-makey.jpg">
+                <div id="carousel2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/makey-makey.jpg">
+                        </div>
+                        <div class="item">    
+                            <img src="assets/paper-prototyping.jpg">
+                        </div> 
+                        <div class="item">
+                            <img src="assets/makey-makey-tennis.jpg">
+                        </div>   
+                    </div>
+                </div> 
+                <!-- <img src="assets/makey-makey.jpg"> -->
                 <div class="overlay">
                     <h3>Game design</h3>
                 </div>
             </li>
 
             <li class="col-sm-6 green">
-                <img src="assets/learning-by-teaching.jpg">
+                <div id="carousel3" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/learning-by-teaching.jpg">
+                        </div>
+                        <div class="item">    
+                            <img src="assets/presenting.jpg">
+                        </div> 
+                        <div class="item">    
+                            <img src="assets/peer-learning.jpg">
+                        </div>    
+                    </div>
+                </div> 
+                <!-- <img src="assets/learning-by-teaching.jpg"> -->
                 <div class="overlay">
                     <h3>Learning by teaching</h3>
                 </div>
             </li>
 
             <li class="col-sm-6 magenta">
-                <img src="assets/creative-coding.jpg">
+                <div id="carousel4" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">    
+                            <img src="assets/tutorial.jpg">
+                        </div>  
+                        <div class="item">    
+                            <img src="assets/css-diner.jpg">
+                        </div>  
+                        <div class="item">
+                            <img src="assets/creative-coding.jpg">
+                        </div>  
+                    </div>
+                </div> 
+                <!-- <img src="assets/creative-coding.jpg"> -->
                 <div class="overlay">
                     <h3>Creative coding</h3>
                 </div>
@@ -102,7 +156,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <a class="col-xs-5" id="rave" href="http://rave.ac.uk"></a>
+                <a class="col-xs-5" id="rave" href="https://www.ravensbourne.ac.uk/courses/undergraduate/the-school-of-media/department-of-content/web-media-production"></a>
                 <a class="col-xs-7 right" href="https://twitter.com/RaveWebMedia">@RaveWebMedia</a>
             </div>
             
@@ -113,6 +167,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+
+        $('#carousel1').carousel({ interval: 5050 });
+        $('#carousel2').carousel({ interval: 4100 });
+        $('#carousel3').carousel({ interval: 4505 });
+        $('#carousel4').carousel({ interval: 5520 });
+
+    </script>
 </body>
 
 </html>
